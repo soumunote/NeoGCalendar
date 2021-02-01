@@ -1,7 +1,34 @@
 doctype html
-html
+html(lang='ja')
   head
+    meta(charset='utf-8')
+    meta(name='viewport' content='width=device-width, initial-scale=1')
     title= title
-    link(rel='stylesheet', href='/stylesheets/style.css')
+    link(rel='stylesheet', href='https://cdn.jsdelivr.net/npm/boosted@4.5.3/dist/css/orangeHelvetica.min.css' 
+                           integrity='sha384-ZWV5rANfkZIt/7HDFToWXT+5LfpEbtDN22vw9WhARiDc+o6zJ4qxwdTwskCbe8NK'
+                           crossorigin='anonymous')
+    link(rel='stylesheet', href='https://cdn.jsdelivr.net/npm/boosted@4.5.3/dist/css/orangeIcons.min.css'
+                           integrity='sha384-R6GN9ea/4pryAfJqIKDPT52rqJuxaMkZndUr7tl6YQmESyczsGyDgIbpuXvebpF5'
+                           crossorigin='anonymous')
+    link(rel='stylesheet', href='https://cdn.jsdelivr.net/npm/boosted@4.5.3/dist/css/boosted.min.css',
+                           integrity='sha384-2x94UsUfEIjfJm4eAvt3wXrWUC/pAef/uLL2Q6KkHM9bgnm7fHaLTVOfjHlijBJS'
+                           crossorigin='anonymous')
+    block scripts
+      script(src='https://code.jquery.com/jquery-3.5.1.slim.min.js'
+             integrity='sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj' 
+             crossorigin='anonymous')
+      script(src='https://cdn.jsdelivr.net/npm/boosted@4.5.3/dist/js/boosted.bundle.min.js'
+             integrity='sha384-hQFBUEXKv1tPjGNFpCctXthNheXFWEyT+cKHsR5+8VYwGoe2L0SIaDNXDpE1LlTK'
+             crossorigin='anonymous')
+      script(src='https://cdn.jsdelivr.net/npm/focus-visible@5.0.2/dist/focus-visible.min.js' 
+             integrity='sha256-sz9/xSAM6mrw3l6hJWDgc7nEbzUeO5e8CXwYoECOEKI=' 
+             crossorigin='anonymous')
   body
     block content
+    block scripts
+      script(src='https://code.jquery.com/jquery-3.5.1.slim.min.js'
+             integrity='sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj'
+             crossorigin='anonymous')
+      script(src='https://cdn.jsdelivr.net/npm/boosted@4.5.3/dist/js/boosted.bundle.min.js'
+             integrity='sha384-hQFBUEXKv1tPjGNFpCctXthNheXFWEyT+cKHsR5+8VYwGoe2L0SIaDNXDpE1LlTK'
+             crossorigin='anonymous')
