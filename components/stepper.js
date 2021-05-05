@@ -48,7 +48,7 @@ class Stepper extends React.Component {
                   <span className="bs-stepper-label">{step.props.label}</span>
                 </button>
               </div>
-            ).join(<div classNmae="line"></div>)
+            )
           }
         </div>
         <div className="bs-stepper-contnt">
