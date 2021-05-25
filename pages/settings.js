@@ -1,4 +1,9 @@
-import { ErrorMessage, Formik } from "formik";
+import { 
+  Formik,
+  Form,
+  Field,
+  ErrorMessage, 
+} from "formik";
 
 export default function Settings() {
   return (
@@ -6,11 +11,11 @@ export default function Settings() {
       <Formik>
         <Form>
 
-          <label htmlFor="neoDbUsername">
-            Username
+          <div className="form-group">
+            <label htmlFor="neoDbUsername">Username</label>
             <Field name="neoDbUsername"/>
             <ErrorMessage name="neoDbUsername"/>
-          </label>
+          </div>
         
           <label htmlFor="neoDbPassword">
             Password
@@ -24,7 +29,11 @@ export default function Settings() {
             <ErrorMessage name="neoDbHostname"/>
           </label>  
 
-          
+          <label htmlFor="">
+            Port
+            <Field name="neoDbPort"/>
+            <ErrorMessage name="neoDbPort"/>
+          </label>
 
         </Form>
       </Formik>
