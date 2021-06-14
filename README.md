@@ -52,3 +52,10 @@ desknet's NEO (以下 NEO) Calendar から Google Calendar へスケジュール
 ## 開発バック知識
 ### express
 [Express application generator](http://expressjs.com/en/starter/generator.html) を使用した
+
+## 設計
+### 設定項目
+- NEO のURL
+- NEO用 PGSQLのアクセス情報
+- 本設定用のパスワード
+- 本アプリ用mongo ... は設定はない
